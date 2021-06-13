@@ -43,4 +43,9 @@ compare p_value to alpha (traditionally 0.05)
 
 We reject the null if the p_value is less than or equal to alpha
 
+HOW TO FIND THE SAMPLE SIZE (MINIMUM) WHERE A CONFIDENCE INTERVAL
+IS BELOW A SPECIFIED MARGIN OF ERROR (me)
+
+n > z**2 * ( (p * (1-p)) / me**2 ) 
+
 '''
