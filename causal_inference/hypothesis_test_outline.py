@@ -49,3 +49,9 @@ IS BELOW A SPECIFIED MARGIN OF ERROR (me)
 n > z**2 * ( (p * (1-p)) / me**2 ) 
 
 '''
+
+# 95% Confidence for normal dist
+scipy.stats.norm.interval(alpha=.95, loc=mu, scale=SE)
+
+# 95% Confidence interval for t-dist
+scipy.stats.t.interval(alpha=.95, df=n-1, loc=mu, scale=SE)
